@@ -1,4 +1,4 @@
-options = [
+const options = [
 ['b', 1, 4],
 ['c', 3, 5],
 ['a', 0, 6],

@@ -25,7 +25,10 @@ function scheduling() {
         }
     }
 
-    return currenttask;
+
+    let answer = [];
+    currenttask.forEach((x) => answer.push(tasks[x]));
+    return answer;
 }
 
 module.exports = scheduling;

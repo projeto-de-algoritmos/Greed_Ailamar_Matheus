@@ -1,0 +1,35 @@
+body {
+    background: #252525;
+    font: normal 15pt Arial;
+    margin-top: 70px;
+}
+
+header {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 31%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 1000px;
+    height: 900px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(87, 86, 76, 0.493);
+}
+
+div {
+    text-align: left;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+}

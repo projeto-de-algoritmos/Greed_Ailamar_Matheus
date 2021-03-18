@@ -1,7 +1,7 @@
 # NomedoProjeto
 
 **Número da Lista**: 3<br>  
-**Conteúdo da Disciplina**: Greed <br>
+**Conteúdo da Disciplina**: Algoritmos Ambiciosos <br>
 
 ## Alunos
 

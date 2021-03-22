@@ -42,7 +42,41 @@ function partitioning() {
         answer.push([]);
         classroom[i].forEach((x) => answer[i].unshift(tasks[x]));
     }
-    // currenttask.forEach((x) => answer.push(tasks[x]));
+    return answer;
+}
+
+function matriculaPartitioning(courses) {
+    
+    let depth = 4;
+    let tasks = [];
+    for (const job of jobs) {
+        tasks.push(new Task({task : job}))
+    }
+    // sort(tasks);
+
+    let classroom = [[0]];
+    let k;
+    for (let i = 1; i < tasks.length; i++) {
+        for(k = 0; k < depth; k++){
+            if(tasks[i]._start >= tasks[classroom[k][0]]._finish) {
+                classroom[k].unshift(i);
+                break;
+            }
+        }
+        if(k === depth){
+
+            classroom.push([i]);
+            depth++;
+        }
+    
+    }
+
+
+    let answer = [];
+    for(let i = 0; i < depth; i++){
+        answer.push([]);
+        classroom[i].forEach((x) => answer[i].unshift(tasks[x]));
+    }
     return answer;
 }
 

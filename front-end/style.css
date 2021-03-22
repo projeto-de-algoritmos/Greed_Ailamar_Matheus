@@ -1,6 +1,6 @@
 body {
     background: #252525;
-    font: normal 15pt Arial;
+    font: normal 13pt Arial;
     margin-top: 70px;
 }
 
@@ -9,18 +9,24 @@ header {
 }
 
 .column {
+    font-size: 13px;
     float: left;
-    width: 31%;
+    width: 46%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 170px; /* Should be removed. Only for demonstration */
+}
+
+.submit {
+    margin-top: 15px;
+    padding: 7px;
 }
 
 section {
     background: white;
     border-radius: 10px;
-    padding: 20px;
+    padding: 35px;
     width: 1000px;
-    height: 900px;
+    height: 1200px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(87, 86, 76, 0.493);
 }
@@ -32,4 +38,5 @@ div {
 
 footer {
     text-align: center;
+    color: #fff;
 }

@@ -1,15 +1,15 @@
 const scheduling = require('./greedies/intervalScheduling');
 const partitioning = require('./greedies/intervalPartitioning');
-const materias = require('./data/FGA');
+const lateness = require('./greedies/minimizeLateness');
+const intervals = require('./data/intervalos');
+const Task = require('./classes/task');
 
 
 // let log = scheduling();
-
-let Classes = [];
-for (const job of jobs) {
-    Classes.push(new Task({task : job}))
+let tasks = [];
+for (const interval of intervals) {
+    tasks.push(new Task({task : interval}))
 }
-
-let log = partitioning();
+let log = lateness(tasks);
 console.log(log)
 return;

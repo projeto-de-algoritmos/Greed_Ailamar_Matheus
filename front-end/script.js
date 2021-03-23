@@ -40,7 +40,8 @@ function adicionar() {
                 let atrasoTotal = res.totalLateness;
                 let listaOrdenada = res.list;
                 //console.log(res);
-                $resposta[0].innerHTML = '<table><tr><th> Tarefa </th><th> Duração </th><th> Prazo </th></tr></table>';
+                $resposta[0].innerHTML = '<strong> Tarefas com melhor ordem de execução: </strong><br><br>';
+                $resposta[0].innerHTML += '<table><tr><th> Tarefa </th><th> Duração </th><th> Prazo </th></tr></table>';
                 let count = 1;
                 for(let i = 0; i < listaOrdenada.length; i++){
                     $resposta[0].innerHTML += (`<table><tr><td> ${listaOrdenada[i]._label} </td><td> ${listaOrdenada[i]._finish} </td><td> ${listaOrdenada[i]._start} </td></tr></table>`);

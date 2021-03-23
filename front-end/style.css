@@ -12,6 +12,23 @@ p {
     color: #252525;
 }
 
+table {   
+    font-family: arial, sans-serif;   
+    border-collapse: collapse;   
+    width: 100%; 
+}  
+
+td, th {   
+    border: 1px solid #aaa;   
+    text-align: left;   
+    padding: 8px; 
+    width: 300px;   
+}  
+
+tr:nth-child(even) {   
+    background-color: #ccc; 
+}
+
 .column {
     font-size: 13px;
     float: left;
@@ -30,7 +47,7 @@ section {
     border-radius: 10px;
     padding: 35px;
     width: 1000px;
-    height: 500px;
+    height: 900px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(87, 86, 76, 0.493);
 }

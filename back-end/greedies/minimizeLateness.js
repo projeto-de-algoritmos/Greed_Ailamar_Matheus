@@ -1,3 +1,4 @@
+
 function orderByFinish() {
     
 }
@@ -18,7 +19,7 @@ function lateness(tasks) {
         }
     }
 
-    let answer = {start: 0, final: t, totalLateness: ltns};
+    let answer = {start: 0, final: t, totalLateness: ltns, list: tasks};
 
     return answer;
 }

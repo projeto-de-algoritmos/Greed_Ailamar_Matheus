@@ -21,6 +21,8 @@ ao usuário a melhor ordem de execução com o mínimo de atrazo possível.
 
 ![Home](./assets/homepage.png)
 
+![Tasks](./assets/tasks.png)
+
 ## Instalação 
 **Linguagem**: JavaScript <br>
 **Framework**: Node JS <br>

@@ -34,13 +34,12 @@ $ git clone https://github.com/projeto-de-algoritmos/Greed_Ailamar_Matheus.git
 
 2. Segundo passo entrar na pasta do repositório e instalar as dependências do NodeJS (para isso você deve ter o NodeJS instalado):
 ```
-$ cd ./Greed_OrganizedTasks
+$ cd ./Greed_OrganizedTasks/back-end/
 $ npm install
 ```
 
 3. Inicie o seu servidor NodeJs com o comando:
 ```
-$ cd ./back-end/
 $ node .
 ```
 

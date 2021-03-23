@@ -25,12 +25,15 @@ app.post('/', (req, res) => {
     if(req.body) {
         if (duration === -1){
             tasks = [];
+            return;
         }
-        let tmp = [task, Number(deadline), Number(duration)];
-        tasks.push(new Task({task : tmp}))
-        let ltns = lateness(tasks);
-        console.log(ltns)
-        return res.json(ltns);
+        else{
+
+            let tmp = [task, Number(deadline), Number(duration)];
+            tasks.push(new Task({task : tmp}))
+            let ltns = lateness(tasks);
+            return res.json(ltns);
+        }
 
     } else {
         console.log("deu ruim");

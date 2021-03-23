@@ -1,6 +1,8 @@
 
-function orderByFinish() {
-    
+function orderByDeadline(tasks) {
+    tasks.sort((a, b) => {
+        return (a._start - b._start);
+    })
 }
 
 
@@ -8,7 +10,7 @@ function orderByFinish() {
 function lateness(tasks) {
 
 
-    // sort(tasks);
+    orderByDeadline(tasks);
     let ltns = 0;
     let t = 0;
     for (let i = 0; i < tasks.length; i++) {

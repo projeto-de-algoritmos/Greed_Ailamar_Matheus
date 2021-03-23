@@ -1,4 +1,4 @@
-# NomedoProjeto
+# Organized 
 
 **Número da Lista**: 3<br>  
 **Conteúdo da Disciplina**: Algoritmos Ambiciosos <br>
@@ -11,10 +11,15 @@
 17/0080307    | Matheus Amaral Moreira
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Nosso projeto organiza uma lista de atividades que devem ser feitas de acordo com o prazo de entrega, devolvendo 
+ao usuário a melhor ordem de execução com o mínimo de atrazo possível.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+- Página inicial   
+<br>
+
+![Home](./assets/homepage.png)
 
 ## Instalação 
 **Linguagem**: xxxxxx<br>
